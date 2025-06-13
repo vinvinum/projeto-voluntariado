@@ -12,11 +12,21 @@ body {
     text-align: center;
   }
 
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    padding: 0 20px;
+  }
+
   footer {
     background-color: green;
     color: white;
     padding: 1rem;
     text-align: center;
-    position: fixed;
+    position: sticky;
     width: 100%;
   }
