@@ -30,3 +30,8 @@ body {
     position: sticky;
     width: 100%;
   }
+
+header a {
+  color: white ;
+  text-decoration: none
+}
