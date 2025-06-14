@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     height: 100%;
@@ -11,7 +12,7 @@ body {
     padding: 1rem;
     text-align: center;
   }
-
+  
   #home {
     display: flex;
     flex-direction: column;
@@ -22,16 +23,22 @@ body {
     padding: 0 20px;
   }
 
-  footer {
-    background-color: green;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    position: sticky;
-    width: 100%;
-  }
+  main {
+  flex: 1;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 header a {
   color: white ;
-  text-decoration: none
+  text-decoration: none;
+  margin: 0 1rem
 }
